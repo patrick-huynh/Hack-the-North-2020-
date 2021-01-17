@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "version": "1.0.0",
+    "name":"Dr. Goose",
+    "description": "An all in one student utility extension!",
+    "icons" :{
+        "128":"./icons/128.png"
+    },
+    "browser_action":{
+        "default_popup":"landing.html"
+    },
+    "background":{
+        "scripts":["background.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs","activeTab","declarativeContent", "storage", "alarms", "notifications"] 
+}
